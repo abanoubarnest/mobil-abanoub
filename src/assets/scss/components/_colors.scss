@@ -1,0 +1,21 @@
+$color-primary:#F98C11;
+$black: #000;
+$white: #fff;
+// TODO revisit gray
+$grey-50: #f1f3f4;
+$grey-100: #e5e7eb;
+$grey-200: #ebedf2;
+$grey-300: #b8bac3;
+$grey-400: #82898b;
+:root {
+  --primary: #{$color-primary};
+  --white: #{$white};
+  --black: #{$black};
+
+  // Grey
+  --grey-50: #{$grey-50};
+  --grey-100: #{$grey-100};
+  --grey-200: #{$grey-200};
+  --grey-300: #{$grey-300};
+  --grey-400: #{$grey-400};
+}

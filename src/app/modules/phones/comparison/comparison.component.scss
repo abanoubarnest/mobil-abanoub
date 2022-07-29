@@ -1,0 +1,13 @@
+
+.container{
+  .mat-tab-group {
+    overflow: hidden;
+    ::ng-deep .mat-tab-label{
+      color: black !important;
+    }
+    ::ng-deep  .mat-tab-body-content {
+      overflow: hidden;
+    }
+  }
+
+}

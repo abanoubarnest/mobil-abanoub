@@ -1,0 +1,13 @@
+.mat-icon-button {
+  padding: 0;
+  min-width: 0;
+  width: 27px;
+  height: 40px;
+  flex-shrink: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffc107 !important;
+ ::ng-deep .mat-icon{
+    color: #ffc107 !important;
+  }
+}

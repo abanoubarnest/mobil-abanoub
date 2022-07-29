@@ -1,0 +1,37 @@
+.container {
+  width: 62% !important;
+  &__p-row{
+  padding:90px 20px;
+  }
+  &__bg {
+    width: 60% !important;
+    position: relative;
+    background: url(../../../../assets/images/main-teaser-side.png) right top no-repeat,
+     url(../../../../assets/images/main-teaser-center.png) center no-repeat,
+     url(../../../../assets/images/main-teaser-left-side.png) left no-repeat;
+    background-size: 339px, 300px;
+    height: 555px;
+    background-color: #f5f5f5;
+  }
+  &__centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  h3,span{
+    margin: 0 !important;
+  }
+  &__shop{
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    color: var(--white);
+    text-align: center;
+    margin: auto;
+  }
+  &__brands{
+    width: 65px;
+    height: 22px;
+  }
+}

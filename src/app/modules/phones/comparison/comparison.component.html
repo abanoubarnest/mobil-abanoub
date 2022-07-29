@@ -1,0 +1,16 @@
+<div class="container">
+  <mat-tab-group [(selectedIndex)]="selectedTabIndex" (selectedTabChange)="onTabChanged();">
+    <mat-tab label="TopSeller">
+      <app-item-price [items]="items" ></app-item-price>
+    </mat-tab>
+    <mat-tab label="New">
+      <app-item-price [items]="items" ></app-item-price>
+    </mat-tab>
+    <mat-tab label="Offers">
+      <app-item-price [items]="items" ></app-item-price>
+       </mat-tab>
+    <mat-tab label="Popularity">
+      <app-item-price [items]="items" ></app-item-price>
+    </mat-tab>
+  </mat-tab-group>
+</div>
